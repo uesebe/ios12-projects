@@ -55,13 +55,29 @@
 			isa = PBXGroup;
 			children = (
 				FA97AAB621FBB1E200B50BF8 /* AppDelegate.swift */,
-				FA97AAB821FBB1E200B50BF8 /* ViewController.swift */,
-				FA97AABA21FBB1E200B50BF8 /* Main.storyboard */,
+				FA97AAC821FBB5DA00B50BF8 /* Controller */,
+				FA97AAC921FBB5F100B50BF8 /* Storyboard */,
 				FA97AABD21FBB1E400B50BF8 /* Assets.xcassets */,
-				FA97AABF21FBB1E400B50BF8 /* LaunchScreen.storyboard */,
 				FA97AAC221FBB1E400B50BF8 /* Info.plist */,
 			);
 			path = "01-IAmRich";
+			sourceTree = "<group>";
+		};
+		FA97AAC821FBB5DA00B50BF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA97AAB821FBB1E200B50BF8 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA97AAC921FBB5F100B50BF8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FA97AABA21FBB1E200B50BF8 /* Main.storyboard */,
+				FA97AABF21FBB1E400B50BF8 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cl.uesebe.-1-IAmRich";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.uesebe.IAmRich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cl.uesebe.-1-IAmRich";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.uesebe.IAmRich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
