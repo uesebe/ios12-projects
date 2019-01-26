@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "diamond-png-image-5a227a19e2db22.1175251215122089219292.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "diamond-png-image-5a227a19e2db22.1175251215122089219292@2x.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "diamond-png-image-5a227a19e2db22.1175251215122089219292@3x.jpg",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
